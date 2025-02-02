@@ -88,6 +88,7 @@
     font-weight: 700;
     border-radius: 40px;
     border: none;
+    background-color: rgb(252,70,107);
 }
 
 .playlist-container {
@@ -117,24 +118,25 @@
     margin-left: 20px;
 }
 
-.offer__scroll-container {
-    max-height: 43vh;
-    margin: 24px;
-    overflow-y: auto;
-  }
-  
-  .offer__scroll-container::-webkit-scrollbar {
-    width: 1px;
-  }
-  
-  .offer__scroll-container::-webkit-scrollbar-thumb {
-    background-color: transparent;
-  }
+.offer__scroll__container {
+  max-height: 43vh;
+  margin: 24px;
+  overflow-y: auto;
+}
+
+.offer__scroll-container::-webkit-scrollbar {
+  width: 1px;
+  background: transparent;
+}
+
+.offer__scroll-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
 
   .offer__list-item {
     display: grid;
     justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
     gap: 16px;
     margin-bottom: 16px;
@@ -216,7 +218,7 @@
   }
 
   .artist {
-    --column-count: 5;
+    --column-count: 4;
     --grid-gap: 24px;
     --min-container-width: 372px;
   }
@@ -228,7 +230,7 @@
   .grid-container {
     grid-gap:24px;
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     min-width: 767px;
   }
   
@@ -323,3 +325,4 @@
   #result-artist {
     padding: 20px 40px;
   }
+
