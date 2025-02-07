@@ -80,6 +80,12 @@
     border: none;
 }
 
+.header__login .subscribe:hover {
+  color: rgb(251,63,203);
+  transition: color 0.3s ease;
+  transform: scale(1.04);  
+}
+
 .header__login .login {
     width: 100px;
     height: 48px;
@@ -88,7 +94,11 @@
     font-weight: 700;
     border-radius: 40px;
     border: none;
-    background-color: rgb(252,70,107);
+    background-color: rgb(251,63,203);
+}
+
+.header__login .login:hover {
+  transform: scale(1.04);
 }
 
 .playlist-container {
@@ -303,9 +313,9 @@
   .play .fa-play {
     position: absolute;
     right: 10px;
-    top: 120px;
+    top: 200px;
     padding: 18px;
-    background-color: #1db954;
+    background-color: rgb(251,63,203);
     border-radius: 100%;
     font-size: 14px;
     opacity: 0;

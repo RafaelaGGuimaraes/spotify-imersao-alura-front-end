@@ -21,7 +21,7 @@
       { "id": 20, "name": "Ana Castela", "genre": "Sertanejo", "urlImg": "./src/assets/icons/ana.jpg" },
       { "id": 21, "name": "Anitta", "genre": "Funk", "urlImg": "./src/assets/icons/anita.jpg" },
       { "id": 22, "name": "Ludimilla", "genre": "Funk", "urlImg": "./src/assets/icons/lud.jpg" },
-      { "id": 8, "name": "Rafaela Gomes", "genre": "Dev", "urlImg": "./src/assets/icons/eu.jpg" }
+      { "id": 23, "name": "Rafaela Gomes", "genre": "Dev", "urlImg": "./src/assets/icons/eu.jpg" }
     ]
   }
   
